@@ -1,0 +1,104 @@
+#clock {
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+}
+
+#slaq {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#rope {
+    height: 200px;
+    position: absolute;
+    left: 259px;
+    top: 49%;
+    transform-origin: 50% 95% 0;
+    transform: translate(-33%, -96%);
+    /*filter: contrast(10%);*/
+}
+
+#var {
+    height: 240px;
+    position: absolute;
+    left: 44%;
+    top: 49%;
+    transform-origin: 50% 77% 0;
+    transform: translate(-8%, -78%);
+}
+
+#jam {
+    height: 160px;
+    position: absolute;
+    left: 258px;
+    top: 49%;
+    transform-origin: 50% 95% 0;
+    transform: translate(-33%, -96%);
+    /*filter: contrast(10%);*/
+}
+
+img#second-3 {
+    position: absolute;
+    top: 55%;
+    left: 44%;
+    transform-origin: 54% 25% 0;
+}
+
+img#second-2 {
+    position: absolute;
+    top: 39%;
+    left: 58%;
+    transform-origin: 50% 70% 0;
+}
+
+img#second-1 {
+    position: absolute;
+    top: 39%;
+    left: 31%;
+    transform-origin: 50% 70% 0;
+}
+
+#button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+img#button-top {
+    z-index: 2;
+    position: absolute;
+    right: 39px;
+    top: 348px;
+    transform: rotate(61deg);
+    cursor: pointer;
+}
+
+img#button-top:active {
+    right: 42px;
+    top: 350px;
+}
+
+img#button-down {
+    z-index: 2;
+    position: absolute;
+    right: 42px;
+    top: 620px;
+    transform: rotate(117deg);
+    cursor: pointer;
+}
+
+img#button-down:active {
+    right: 45px;
+    top: 618px;
+}
+
+div#circle {
+    position: absolute;
+    z-index: -1;
+    top: 294px;
+    left: 69px;
+}
